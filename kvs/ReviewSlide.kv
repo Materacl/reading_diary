@@ -1,0 +1,42 @@
+<ReviewSlide>:
+    orientation: 'vertical'
+    padding: 20
+    spacing: 30
+
+    MDLabel:
+        id: page
+
+        size_hint_y: 0.01
+
+        text: '0'
+        font_name: "JetBrainsMono"
+
+        halign: 'center'
+
+    MDLabel:
+        id: name_author
+
+        size_hint_y: 0.01
+
+        text: 'Author'
+        font_name: "JetBrainsMono"
+
+        halign: 'center'
+
+    Image:
+        id: image
+
+        halign: 'center'
+
+    ScrollView:
+        MDLabel:
+            id: review
+
+            size_hint_y: None
+            size: self.texture_size
+
+            text: 'Тут будет обзор'
+            font_name: "JetBrainsMono-Italic"
+
+            halign: 'center'
+
